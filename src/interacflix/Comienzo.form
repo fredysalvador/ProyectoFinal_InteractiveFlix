@@ -83,11 +83,17 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="Pelear con miedo"/>
       </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btpelearconmiedohuidahospitalMouseClicked"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="btarrepentirtehuidahospital">
       <Properties>
         <Property name="text" type="java.lang.String" value="Arrepentirte"/>
       </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btarrepentirtehuidahospitalMouseClicked"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="bthuirbosque">
       <Properties>

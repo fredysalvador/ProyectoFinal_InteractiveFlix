@@ -25,17 +25,20 @@ public class Comienzo extends javax.swing.JFrame {
     private MediaPlayer mediaPlayer2;
     private MediaView mediaView1;
     private MediaView mediaView2;
-    
     private MediaPlayer mediaPlayer3;
      private MediaView mediaView3;
      private MediaPlayer mediaPlayer4;
      private MediaView mediaView4;
      private MediaPlayer mediaPlayer5;
      private MediaView mediaView5;
-      private MediaPlayer mediaPlayer6;
+     private MediaPlayer mediaPlayer6;
      private MediaView mediaView6;
      private MediaPlayer mediaPlayer7;
      private MediaView mediaView7;
+     private MediaPlayer mediaPlayer8;
+     private MediaView mediaView8;
+      private MediaPlayer mediaPlayer9;
+     private MediaView mediaView9;
     /**
      * Creates new form Comienzo
      */
@@ -92,7 +95,15 @@ public class Comienzo extends javax.swing.JFrame {
         mediaPlayer7 = new MediaPlayer(
                 new Media(file7.toURI().toString())
         );
+          File file8 = new File("Pelea_Huilliendomiedoarbol_Gato.mp4");
+        mediaPlayer8 = new MediaPlayer(
+                new Media(file8.toURI().toString())
+        );
         
+           File file9 = new File("Huir_MiedoCueva_Gato.mp4");
+        mediaPlayer9 = new MediaPlayer(
+                new Media(file9.toURI().toString())
+        );
        
        
            
@@ -118,6 +129,12 @@ public class Comienzo extends javax.swing.JFrame {
         mediaView7 = new MediaView(mediaPlayer7);
         mediaView7.setPreserveRatio(true);
         
+        mediaView8 = new MediaView(mediaPlayer8);
+        mediaView8.setPreserveRatio(true);
+        
+        mediaView9 = new MediaView(mediaPlayer9);
+        mediaView9.setPreserveRatio(true);
+        
         Dimension dimension = new Dimension(800, 600);
         mediaView1.setFitWidth(dimension.getWidth());
         mediaView1.setFitHeight(dimension.getHeight());
@@ -133,6 +150,10 @@ public class Comienzo extends javax.swing.JFrame {
         mediaView6.setFitHeight(dimension.getHeight());
         mediaView7.setFitWidth(dimension.getWidth());
         mediaView7.setFitHeight(dimension.getHeight());
+          mediaView8.setFitWidth(dimension.getWidth());
+        mediaView8.setFitHeight(dimension.getHeight());
+         mediaView9.setFitWidth(dimension.getWidth());
+        mediaView9.setFitHeight(dimension.getHeight());
         }
 
 
@@ -170,6 +191,17 @@ public class Comienzo extends javax.swing.JFrame {
         jfxPanel.setScene(new Scene(new Group(mediaView7)));
         mediaPlayer7.play();
       }
+        
+        private void playVideo8() {
+        jfxPanel.setScene(new Scene(new Group(mediaView8)));
+        mediaPlayer8.play();
+      }
+      
+        private void playVideo9() {
+        jfxPanel.setScene(new Scene(new Group(mediaView9)));
+        mediaPlayer9.play();
+      }
+        
        
        
     /**
@@ -260,9 +292,19 @@ public class Comienzo extends javax.swing.JFrame {
         getContentPane().add(btaparecermiedohospital);
 
         btpelearconmiedohuidahospital.setText("Pelear con miedo");
+        btpelearconmiedohuidahospital.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btpelearconmiedohuidahospitalMouseClicked(evt);
+            }
+        });
         getContentPane().add(btpelearconmiedohuidahospital);
 
         btarrepentirtehuidahospital.setText("Arrepentirte");
+        btarrepentirtehuidahospital.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btarrepentirtehuidahospitalMouseClicked(evt);
+            }
+        });
         getContentPane().add(btarrepentirtehuidahospital);
 
         bthuirbosque.setText("Huir");
@@ -404,6 +446,26 @@ public class Comienzo extends javax.swing.JFrame {
         
         playVideo7();
     }//GEN-LAST:event_btaparecermiedohospitalMouseClicked
+
+    private void btpelearconmiedohuidahospitalMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btpelearconmiedohuidahospitalMouseClicked
+        // TODO add your handling code here:
+        btpelearconmiedohuidahospital.setVisible(false);
+        btarrepentirtehuidahospital.setVisible(false);
+        playVideo8();
+        ComenzarGatoBotas.setVisible(true);
+        ComenzarMarioBros.setVisible(true);        
+                
+    }//GEN-LAST:event_btpelearconmiedohuidahospitalMouseClicked
+
+    private void btarrepentirtehuidahospitalMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btarrepentirtehuidahospitalMouseClicked
+        // TODO add your handling code here:
+         btpelearconmiedohuidahospital.setVisible(false);
+        btarrepentirtehuidahospital.setVisible(false);
+        playVideo9();
+        ComenzarGatoBotas.setVisible(true);
+        ComenzarMarioBros.setVisible(true);  
+      
+    }//GEN-LAST:event_btarrepentirtehuidahospitalMouseClicked
 
     /**
      * @param args the command line arguments
