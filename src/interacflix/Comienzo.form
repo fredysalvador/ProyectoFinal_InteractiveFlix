@@ -67,10 +67,26 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="No Pelear"/>
       </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btBadEndingPeleaHospitalHumildadMouseClicked"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="btaparecermiedohospital">
       <Properties>
         <Property name="text" type="java.lang.String" value="Despertar en Hospital con Miedo"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btaparecermiedohospitalMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btpelearconmiedohuidahospital">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Pelear con miedo"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btarrepentirtehuidahospital">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Arrepentirte"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="bthuirbosque">

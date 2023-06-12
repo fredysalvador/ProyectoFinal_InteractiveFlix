@@ -32,6 +32,10 @@ public class Comienzo extends javax.swing.JFrame {
      private MediaView mediaView4;
      private MediaPlayer mediaPlayer5;
      private MediaView mediaView5;
+      private MediaPlayer mediaPlayer6;
+     private MediaView mediaView6;
+     private MediaPlayer mediaPlayer7;
+     private MediaView mediaView7;
     /**
      * Creates new form Comienzo
      */
@@ -53,6 +57,8 @@ public class Comienzo extends javax.swing.JFrame {
         btaparecermiedohospital.setVisible(false);
         btGoodEndingPeleaHospitalHumildad.setVisible(false);
         btBadEndingPeleaHospitalHumildad.setVisible(false);
+        btpelearconmiedohuidahospital.setVisible(false);
+        btarrepentirtehuidahospital.setVisible(false);
     }
 
         private void initMediaPlayer() {
@@ -78,6 +84,14 @@ public class Comienzo extends javax.swing.JFrame {
         mediaPlayer5 = new MediaPlayer(
                 new Media(file5.toURI().toString())
         );
+        File file6 = new File("Perder_MorirHumillado_Gato.mp4");
+        mediaPlayer6 = new MediaPlayer(
+                new Media(file6.toURI().toString())
+        );
+         File file7 = new File("Hospital_Huir_Gato.mp4");
+        mediaPlayer7 = new MediaPlayer(
+                new Media(file7.toURI().toString())
+        );
         
        
        
@@ -98,18 +112,28 @@ public class Comienzo extends javax.swing.JFrame {
          mediaView5 = new MediaView(mediaPlayer5);
         mediaView5.setPreserveRatio(true);
 
+        mediaView6 = new MediaView(mediaPlayer6);
+        mediaView6.setPreserveRatio(true);
+        
+        mediaView7 = new MediaView(mediaPlayer7);
+        mediaView7.setPreserveRatio(true);
+        
         Dimension dimension = new Dimension(800, 600);
         mediaView1.setFitWidth(dimension.getWidth());
         mediaView1.setFitHeight(dimension.getHeight());
         mediaView2.setFitWidth(dimension.getWidth());
         mediaView2.setFitHeight(dimension.getHeight());
-         mediaView3.setFitWidth(dimension.getWidth());
+        mediaView3.setFitWidth(dimension.getWidth());
         mediaView3.setFitHeight(dimension.getHeight());
         mediaView4.setFitWidth(dimension.getWidth());
         mediaView4.setFitHeight(dimension.getHeight());
         mediaView5.setFitWidth(dimension.getWidth());
         mediaView5.setFitHeight(dimension.getHeight());
-    }
+        mediaView6.setFitWidth(dimension.getWidth());
+        mediaView6.setFitHeight(dimension.getHeight());
+        mediaView7.setFitWidth(dimension.getWidth());
+        mediaView7.setFitHeight(dimension.getHeight());
+        }
 
 
     private void playVideo1() {
@@ -137,6 +161,17 @@ public class Comienzo extends javax.swing.JFrame {
         mediaPlayer5.play();
       }
     
+        private void playVideo6() {
+        jfxPanel.setScene(new Scene(new Group(mediaView6)));
+        mediaPlayer6.play();
+      }
+       
+        private void playVideo7() {
+        jfxPanel.setScene(new Scene(new Group(mediaView7)));
+        mediaPlayer7.play();
+      }
+       
+       
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -152,6 +187,8 @@ public class Comienzo extends javax.swing.JFrame {
         btGoodEndingPeleaHospitalHumildad = new javax.swing.JButton();
         btBadEndingPeleaHospitalHumildad = new javax.swing.JButton();
         btaparecermiedohospital = new javax.swing.JButton();
+        btpelearconmiedohuidahospital = new javax.swing.JButton();
+        btarrepentirtehuidahospital = new javax.swing.JButton();
         bthuirbosque = new javax.swing.JButton();
         ComenzarGatoBotas = new javax.swing.JButton();
         btCiudadSeleccion = new javax.swing.JButton();
@@ -207,10 +244,26 @@ public class Comienzo extends javax.swing.JFrame {
         getContentPane().add(btGoodEndingPeleaHospitalHumildad);
 
         btBadEndingPeleaHospitalHumildad.setText("No Pelear");
+        btBadEndingPeleaHospitalHumildad.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btBadEndingPeleaHospitalHumildadMouseClicked(evt);
+            }
+        });
         getContentPane().add(btBadEndingPeleaHospitalHumildad);
 
         btaparecermiedohospital.setText("Despertar en Hospital con Miedo");
+        btaparecermiedohospital.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btaparecermiedohospitalMouseClicked(evt);
+            }
+        });
         getContentPane().add(btaparecermiedohospital);
+
+        btpelearconmiedohuidahospital.setText("Pelear con miedo");
+        getContentPane().add(btpelearconmiedohuidahospital);
+
+        btarrepentirtehuidahospital.setText("Arrepentirte");
+        getContentPane().add(btarrepentirtehuidahospital);
 
         bthuirbosque.setText("Huir");
         getContentPane().add(bthuirbosque);
@@ -332,6 +385,26 @@ public class Comienzo extends javax.swing.JFrame {
         ComenzarMarioBros.setVisible(true);
     }//GEN-LAST:event_btGoodEndingPeleaHospitalHumildadMouseClicked
 
+    private void btBadEndingPeleaHospitalHumildadMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btBadEndingPeleaHospitalHumildadMouseClicked
+        // TODO add your handling code here:
+        btGoodEndingPeleaHospitalHumildad.setVisible(false);
+        btBadEndingPeleaHospitalHumildad.setVisible(false);
+        playVideo6();
+        
+         ComenzarGatoBotas.setVisible(true);
+        ComenzarMarioBros.setVisible(true);
+    }//GEN-LAST:event_btBadEndingPeleaHospitalHumildadMouseClicked
+
+    private void btaparecermiedohospitalMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btaparecermiedohospitalMouseClicked
+        // TODO add your handling code here:
+        btaparecerhumildehospital.setVisible(false);
+        btaparecermiedohospital.setVisible(false);        
+        btpelearconmiedohuidahospital.setVisible(true);
+        btarrepentirtehuidahospital.setVisible(true);
+        
+        playVideo7();
+    }//GEN-LAST:event_btaparecermiedohospitalMouseClicked
+
     /**
      * @param args the command line arguments
      */
@@ -376,8 +449,10 @@ public class Comienzo extends javax.swing.JFrame {
     private javax.swing.JButton btGoodEndingPeleaHospitalHumildad;
     private javax.swing.JButton btaparecerhumildehospital;
     private javax.swing.JButton btaparecermiedohospital;
+    private javax.swing.JButton btarrepentirtehuidahospital;
     private javax.swing.JButton bthuirbosque;
     private javax.swing.JButton btpeleagatobosque;
+    private javax.swing.JButton btpelearconmiedohuidahospital;
     private javax.swing.JLayeredPane jLayeredPane1;
     private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
