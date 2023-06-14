@@ -37,8 +37,20 @@ public class Comienzo extends javax.swing.JFrame {
      private MediaView mediaView7;
      private MediaPlayer mediaPlayer8;
      private MediaView mediaView8;
-      private MediaPlayer mediaPlayer9;
+     private MediaPlayer mediaPlayer9;
      private MediaView mediaView9;
+     private MediaPlayer mediaPlayer10;
+     private MediaView mediaView10;
+     private MediaPlayer mediaPlayer11;
+     private MediaView mediaView11;
+     private MediaPlayer mediaPlayer12;
+     private MediaView mediaView12;
+     private MediaPlayer mediaPlayer13;
+     private MediaView mediaView13;
+      private MediaPlayer mediaPlayer14;
+     private MediaView mediaView14;
+       private MediaPlayer mediaPlayer15;
+     private MediaView mediaView15;
     /**
      * Creates new form Comienzo
      */
@@ -62,6 +74,15 @@ public class Comienzo extends javax.swing.JFrame {
         btBadEndingPeleaHospitalHumildad.setVisible(false);
         btpelearconmiedohuidahospital.setVisible(false);
         btarrepentirtehuidahospital.setVisible(false);
+        btdespertarenhospitalMotivacion.setVisible(false);
+        btdespertarhospitaldesmotivado.setVisible(false);
+        btPelearMotivado.setVisible(false);
+        btPelearRendirse.setVisible(false);
+        bthuirperro.setVisible(false);
+        btquedarseperro.setVisible(false);
+        btMasVidas.setVisible(false);
+        btpelearconperro.setVisible(false);
+        
     }
 
         private void initMediaPlayer() {
@@ -104,8 +125,36 @@ public class Comienzo extends javax.swing.JFrame {
         mediaPlayer9 = new MediaPlayer(
                 new Media(file9.toURI().toString())
         );
+        
+         File file10 = new File("PenultimaMuerte_Gato_Huir.mp4");
+        mediaPlayer10 = new MediaPlayer(
+                new Media(file10.toURI().toString())
+        );
+        
+         File file11 = new File("GatoCristal_Motivado.mp4");
+        mediaPlayer11 = new MediaPlayer(
+                new Media(file11.toURI().toString())
+        );
        
+         File file12 = new File("VividorDigno.mp4");
+        mediaPlayer12 = new MediaPlayer(
+                new Media(file12.toURI().toString())
+        );
        
+         File file13 = new File("finalsinopeleabueno.mp4");
+        mediaPlayer13 = new MediaPlayer(
+                new Media(file13.toURI().toString())
+        );
+       
+        File file14 = new File("depriimidocasavieja.mp4");
+        mediaPlayer14 = new MediaPlayer(
+                new Media(file14.toURI().toString())
+        );
+       
+         File file15 = new File("lamuerte4kenestrella.mp4");
+        mediaPlayer15 = new MediaPlayer(
+                new Media(file15.toURI().toString())
+        );
            
 
         mediaView1 = new MediaView(mediaPlayer1);
@@ -135,6 +184,24 @@ public class Comienzo extends javax.swing.JFrame {
         mediaView9 = new MediaView(mediaPlayer9);
         mediaView9.setPreserveRatio(true);
         
+        mediaView10 = new MediaView(mediaPlayer10);
+        mediaView10.setPreserveRatio(true);
+        
+        mediaView11 = new MediaView(mediaPlayer11);
+        mediaView11.setPreserveRatio(true);
+        
+        mediaView12 = new MediaView(mediaPlayer12);
+        mediaView12.setPreserveRatio(true);
+        
+        mediaView13 = new MediaView(mediaPlayer13);
+        mediaView13.setPreserveRatio(true);
+        
+        mediaView14 = new MediaView(mediaPlayer14);
+        mediaView14.setPreserveRatio(true);
+        
+        mediaView15 = new MediaView(mediaPlayer15);
+        mediaView15.setPreserveRatio(true);
+        
         Dimension dimension = new Dimension(800, 600);
         mediaView1.setFitWidth(dimension.getWidth());
         mediaView1.setFitHeight(dimension.getHeight());
@@ -154,6 +221,18 @@ public class Comienzo extends javax.swing.JFrame {
         mediaView8.setFitHeight(dimension.getHeight());
          mediaView9.setFitWidth(dimension.getWidth());
         mediaView9.setFitHeight(dimension.getHeight());
+        mediaView10.setFitWidth(dimension.getWidth());
+        mediaView10.setFitHeight(dimension.getHeight());
+        mediaView11.setFitWidth(dimension.getWidth());
+        mediaView11.setFitHeight(dimension.getHeight());
+        mediaView12.setFitWidth(dimension.getWidth());
+        mediaView12.setFitHeight(dimension.getHeight());
+        mediaView13.setFitWidth(dimension.getWidth());
+        mediaView13.setFitHeight(dimension.getHeight());
+         mediaView14.setFitWidth(dimension.getWidth());
+        mediaView14.setFitHeight(dimension.getHeight());
+        mediaView15.setFitWidth(dimension.getWidth());
+        mediaView15.setFitHeight(dimension.getHeight());
         }
 
 
@@ -201,6 +280,35 @@ public class Comienzo extends javax.swing.JFrame {
         jfxPanel.setScene(new Scene(new Group(mediaView9)));
         mediaPlayer9.play();
       }
+        private void playVideo10() {
+        jfxPanel.setScene(new Scene(new Group(mediaView10)));
+        mediaPlayer10.play();
+      }
+        
+        private void playVideo11() {
+        jfxPanel.setScene(new Scene(new Group(mediaView11)));
+        mediaPlayer11.play();
+      }
+        
+        private void playVideo12() {
+        jfxPanel.setScene(new Scene(new Group(mediaView12)));
+        mediaPlayer12.play();
+      }
+        
+        private void playVideo13() {
+        jfxPanel.setScene(new Scene(new Group(mediaView13)));
+        mediaPlayer13.play();
+      }
+        
+        private void playVideo14() {
+        jfxPanel.setScene(new Scene(new Group(mediaView14)));
+        mediaPlayer14.play();
+      }
+        
+        private void playVideo15() {
+        jfxPanel.setScene(new Scene(new Group(mediaView15)));
+        mediaPlayer15.play();
+      }
         
        
        
@@ -222,6 +330,14 @@ public class Comienzo extends javax.swing.JFrame {
         btpelearconmiedohuidahospital = new javax.swing.JButton();
         btarrepentirtehuidahospital = new javax.swing.JButton();
         bthuirbosque = new javax.swing.JButton();
+        btdespertarenhospitalMotivacion = new javax.swing.JButton();
+        btPelearMotivado = new javax.swing.JButton();
+        btPelearRendirse = new javax.swing.JButton();
+        btdespertarhospitaldesmotivado = new javax.swing.JButton();
+        bthuirperro = new javax.swing.JButton();
+        btMasVidas = new javax.swing.JButton();
+        btpelearconperro = new javax.swing.JButton();
+        btquedarseperro = new javax.swing.JButton();
         ComenzarGatoBotas = new javax.swing.JButton();
         btCiudadSeleccion = new javax.swing.JButton();
         ComenzarMarioBros = new javax.swing.JButton();
@@ -308,7 +424,71 @@ public class Comienzo extends javax.swing.JFrame {
         getContentPane().add(btarrepentirtehuidahospital);
 
         bthuirbosque.setText("Huir");
+        bthuirbosque.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bthuirbosqueMouseClicked(evt);
+            }
+        });
         getContentPane().add(bthuirbosque);
+
+        btdespertarenhospitalMotivacion.setText("Despertar Motivado en Hospital");
+        btdespertarenhospitalMotivacion.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btdespertarenhospitalMotivacionMouseClicked(evt);
+            }
+        });
+        getContentPane().add(btdespertarenhospitalMotivacion);
+
+        btPelearMotivado.setText("Pelear");
+        btPelearMotivado.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btPelearMotivadoMouseClicked(evt);
+            }
+        });
+        btPelearMotivado.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btPelearMotivadoActionPerformed(evt);
+            }
+        });
+        getContentPane().add(btPelearMotivado);
+
+        btPelearRendirse.setText("Rendirse");
+        btPelearRendirse.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btPelearRendirseMouseClicked(evt);
+            }
+        });
+        btPelearRendirse.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btPelearRendirseActionPerformed(evt);
+            }
+        });
+        getContentPane().add(btPelearRendirse);
+
+        btdespertarhospitaldesmotivado.setText("Despertar Desmotivado en Hospital");
+        btdespertarhospitaldesmotivado.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btdespertarhospitaldesmotivadoMouseClicked(evt);
+            }
+        });
+        getContentPane().add(btdespertarhospitaldesmotivado);
+
+        bthuirperro.setText("Huir con Perro");
+        bthuirperro.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bthuirperroMouseClicked(evt);
+            }
+        });
+        getContentPane().add(bthuirperro);
+
+        btMasVidas.setText("Obtener mas vidas");
+        getContentPane().add(btMasVidas);
+
+        btpelearconperro.setText("Pelear con Valentia");
+        getContentPane().add(btpelearconperro);
+
+        btquedarseperro.setText("Quedarse con Perro");
+        getContentPane().add(btquedarseperro);
 
         ComenzarGatoBotas.setText("Comenzar El Gato con botas");
         ComenzarGatoBotas.setMaximumSize(new java.awt.Dimension(177, 23));
@@ -336,7 +516,7 @@ public class Comienzo extends javax.swing.JFrame {
         });
         getContentPane().add(ComenzarMarioBros);
 
-        jLayeredPane1.setLayout(new java.awt.GridLayout());
+        jLayeredPane1.setLayout(new java.awt.GridLayout(1, 0));
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -467,6 +647,76 @@ public class Comienzo extends javax.swing.JFrame {
       
     }//GEN-LAST:event_btarrepentirtehuidahospitalMouseClicked
 
+    private void bthuirbosqueMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_bthuirbosqueMouseClicked
+        // TODO add your handling code here:
+        bthuirbosque.setVisible(false);
+        btpeleagatobosque.setVisible(false);
+        btdespertarenhospitalMotivacion.setVisible(true);
+        btdespertarhospitaldesmotivado.setVisible(true);
+        playVideo10();
+    }//GEN-LAST:event_bthuirbosqueMouseClicked
+
+    private void btdespertarenhospitalMotivacionMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btdespertarenhospitalMotivacionMouseClicked
+        // TODO add your handling code here:
+        
+        btdespertarenhospitalMotivacion.setVisible(false);
+        btdespertarhospitaldesmotivado.setVisible(false); 
+        btPelearMotivado.setVisible(true);
+        btPelearRendirse.setVisible(true);
+        
+        playVideo11(); 
+    }//GEN-LAST:event_btdespertarenhospitalMotivacionMouseClicked
+
+    private void btPelearRendirseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btPelearRendirseActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btPelearRendirseActionPerformed
+
+    private void btPelearMotivadoMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btPelearMotivadoMouseClicked
+
+         btPelearMotivado.setVisible(false);
+        btPelearRendirse.setVisible(false);
+        playVideo12();
+        ComenzarGatoBotas.setVisible(true);
+        ComenzarMarioBros.setVisible(true);  
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btPelearMotivadoMouseClicked
+
+    private void btPelearRendirseMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btPelearRendirseMouseClicked
+
+          btPelearMotivado.setVisible(false);
+        btPelearRendirse.setVisible(false);
+        playVideo13(); 
+        ComenzarGatoBotas.setVisible(true);
+        ComenzarMarioBros.setVisible(true);  
+// TODO add your handling code here:
+    }//GEN-LAST:event_btPelearRendirseMouseClicked
+
+    private void btPelearMotivadoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btPelearMotivadoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btPelearMotivadoActionPerformed
+
+    private void btdespertarhospitaldesmotivadoMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btdespertarhospitaldesmotivadoMouseClicked
+        // TODO add your handling code here:
+         btdespertarenhospitalMotivacion.setVisible(false);
+        btdespertarhospitaldesmotivado.setVisible(false); 
+        bthuirperro.setVisible(true);
+        btquedarseperro.setVisible(true);
+        
+        
+        playVideo14();
+        
+        
+    }//GEN-LAST:event_btdespertarhospitaldesmotivadoMouseClicked
+
+    private void bthuirperroMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_bthuirperroMouseClicked
+        // TODO add your handling code here:
+         bthuirperro.setVisible(false);
+        btquedarseperro.setVisible(false);
+        btMasVidas.setVisible(true);
+        btpelearconperro.setVisible(true);
+        playVideo15();
+    }//GEN-LAST:event_bthuirperroMouseClicked
+
     /**
      * @param args the command line arguments
      */
@@ -509,12 +759,20 @@ public class Comienzo extends javax.swing.JFrame {
     private javax.swing.JButton btBosqueSeleccion;
     private javax.swing.JButton btCiudadSeleccion;
     private javax.swing.JButton btGoodEndingPeleaHospitalHumildad;
+    private javax.swing.JButton btMasVidas;
+    private javax.swing.JButton btPelearMotivado;
+    private javax.swing.JButton btPelearRendirse;
     private javax.swing.JButton btaparecerhumildehospital;
     private javax.swing.JButton btaparecermiedohospital;
     private javax.swing.JButton btarrepentirtehuidahospital;
+    private javax.swing.JButton btdespertarenhospitalMotivacion;
+    private javax.swing.JButton btdespertarhospitaldesmotivado;
     private javax.swing.JButton bthuirbosque;
+    private javax.swing.JButton bthuirperro;
     private javax.swing.JButton btpeleagatobosque;
     private javax.swing.JButton btpelearconmiedohuidahospital;
+    private javax.swing.JButton btpelearconperro;
+    private javax.swing.JButton btquedarseperro;
     private javax.swing.JLayeredPane jLayeredPane1;
     private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables

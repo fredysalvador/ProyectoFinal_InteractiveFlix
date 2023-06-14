@@ -99,6 +99,66 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="Huir"/>
       </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bthuirbosqueMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btdespertarenhospitalMotivacion">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Despertar Motivado en Hospital"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btdespertarenhospitalMotivacionMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btPelearMotivado">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Pelear"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btPelearMotivadoMouseClicked"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btPelearMotivadoActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btPelearRendirse">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Rendirse"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btPelearRendirseMouseClicked"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btPelearRendirseActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btdespertarhospitaldesmotivado">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Despertar Desmotivado en Hospital"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btdespertarhospitaldesmotivadoMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="bthuirperro">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Huir con Perro"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bthuirperroMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btMasVidas">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Obtener mas vidas"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btpelearconperro">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Pelear con Valentia"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btquedarseperro">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Quedarse con Perro"/>
+      </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="ComenzarGatoBotas">
       <Properties>
