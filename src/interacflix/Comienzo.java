@@ -51,6 +51,10 @@ public class Comienzo extends javax.swing.JFrame {
      private MediaView mediaView14;
        private MediaPlayer mediaPlayer15;
      private MediaView mediaView15;
+      private MediaPlayer mediaPlayer16;
+     private MediaView mediaView16;
+      private MediaPlayer mediaPlayer17;
+     private MediaView mediaView17;
     /**
      * Creates new form Comienzo
      */
@@ -155,7 +159,14 @@ public class Comienzo extends javax.swing.JFrame {
         mediaPlayer15 = new MediaPlayer(
                 new Media(file15.toURI().toString())
         );
-           
+        
+         File file16 = new File("goodfinaldeseo.mp4");
+        mediaPlayer16 = new MediaPlayer(
+                new Media(file16.toURI().toString())
+        );
+          
+        
+        
 
         mediaView1 = new MediaView(mediaPlayer1);
         mediaView1.setPreserveRatio(true);
@@ -201,6 +212,13 @@ public class Comienzo extends javax.swing.JFrame {
         
         mediaView15 = new MediaView(mediaPlayer15);
         mediaView15.setPreserveRatio(true);
+
+mediaView16 = new MediaView(mediaPlayer16);
+        mediaView16.setPreserveRatio(true);
+
+mediaView17 = new MediaView(mediaPlayer17);
+        mediaView17.setPreserveRatio(true);
+
         
         Dimension dimension = new Dimension(800, 600);
         mediaView1.setFitWidth(dimension.getWidth());
@@ -233,6 +251,10 @@ public class Comienzo extends javax.swing.JFrame {
         mediaView14.setFitHeight(dimension.getHeight());
         mediaView15.setFitWidth(dimension.getWidth());
         mediaView15.setFitHeight(dimension.getHeight());
+         mediaView16.setFitWidth(dimension.getWidth());
+        mediaView16.setFitHeight(dimension.getHeight());
+         mediaView17.setFitWidth(dimension.getWidth());
+        mediaView17.setFitHeight(dimension.getHeight());
         }
 
 
@@ -308,6 +330,16 @@ public class Comienzo extends javax.swing.JFrame {
         private void playVideo15() {
         jfxPanel.setScene(new Scene(new Group(mediaView15)));
         mediaPlayer15.play();
+      }
+        
+         private void playVideo16() {
+        jfxPanel.setScene(new Scene(new Group(mediaView16)));
+        mediaPlayer16.play();
+      }
+         
+          private void playVideo17() {
+        jfxPanel.setScene(new Scene(new Group(mediaView17)));
+        mediaPlayer17.play();
       }
         
        
@@ -482,6 +514,11 @@ public class Comienzo extends javax.swing.JFrame {
         getContentPane().add(bthuirperro);
 
         btMasVidas.setText("Obtener mas vidas");
+        btMasVidas.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btMasVidasMouseClicked(evt);
+            }
+        });
         getContentPane().add(btMasVidas);
 
         btpelearconperro.setText("Pelear con Valentia");
@@ -716,6 +753,15 @@ public class Comienzo extends javax.swing.JFrame {
         btpelearconperro.setVisible(true);
         playVideo15();
     }//GEN-LAST:event_bthuirperroMouseClicked
+
+    private void btMasVidasMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btMasVidasMouseClicked
+        // TODO add your handling code here:
+        btMasVidas.setVisible(false);
+        btpelearconperro.setVisible(false);
+        playVideo16();
+        ComenzarGatoBotas.setVisible(true);
+        ComenzarMarioBros.setVisible(true);  
+    }//GEN-LAST:event_btMasVidasMouseClicked
 
     /**
      * @param args the command line arguments
