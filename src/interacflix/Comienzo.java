@@ -164,8 +164,11 @@ public class Comienzo extends javax.swing.JFrame {
         mediaPlayer16 = new MediaPlayer(
                 new Media(file16.toURI().toString())
         );
-          
         
+        File file17 = new File("sobreviramenazado.mp4");
+        mediaPlayer17 = new MediaPlayer(
+                new Media(file17.toURI().toString())
+        );
         
 
         mediaView1 = new MediaView(mediaPlayer1);
@@ -522,6 +525,11 @@ mediaView17 = new MediaView(mediaPlayer17);
         getContentPane().add(btMasVidas);
 
         btpelearconperro.setText("Pelear con Valentia");
+        btpelearconperro.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btpelearconperroMouseClicked(evt);
+            }
+        });
         getContentPane().add(btpelearconperro);
 
         btquedarseperro.setText("Quedarse con Perro");
@@ -762,6 +770,15 @@ mediaView17 = new MediaView(mediaPlayer17);
         ComenzarGatoBotas.setVisible(true);
         ComenzarMarioBros.setVisible(true);  
     }//GEN-LAST:event_btMasVidasMouseClicked
+
+    private void btpelearconperroMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btpelearconperroMouseClicked
+        // TODO add your handling code here:
+        btMasVidas.setVisible(false);
+        btpelearconperro.setVisible(false);
+        playVideo17();
+        ComenzarGatoBotas.setVisible(true);
+        ComenzarMarioBros.setVisible(true);  
+    }//GEN-LAST:event_btpelearconperroMouseClicked
 
     /**
      * @param args the command line arguments
