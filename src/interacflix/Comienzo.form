@@ -277,41 +277,6 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btirgolemtranquilamenteActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="ComenzarMarioBros">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Comenzar Super Mario Bros"/>
-      </Properties>
-      <Events>
-        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="ComenzarMarioBrosMouseClicked"/>
-      </Events>
-    </Component>
-    <Container class="javax.swing.JLayeredPane" name="jLayeredPane1">
-
-      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignGridLayout">
-        <Property name="columns" type="int" value="0"/>
-        <Property name="rows" type="int" value="1"/>
-      </Layout>
-      <SubComponents>
-        <Container class="javax.swing.JPanel" name="jPanel1">
-          <AuxValues>
-            <AuxValue name="JLayeredPane.layer" type="java.lang.Integer" value="200"/>
-          </AuxValues>
-
-          <Layout>
-            <DimensionLayout dim="0">
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-              </Group>
-            </DimensionLayout>
-            <DimensionLayout dim="1">
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-              </Group>
-            </DimensionLayout>
-          </Layout>
-        </Container>
-      </SubComponents>
-    </Container>
     <Component class="javax.swing.JButton" name="btAyudarAmigos">
       <Properties>
         <Property name="text" type="java.lang.String" value="Ayudar Amigos"/>
@@ -361,6 +326,1405 @@
       <Events>
         <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btcumplirdeseoMouseClicked"/>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btcumplirdeseoActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="ComenzarMarioBros">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Comenzar Super Mario Bros"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="ComenzarMarioBrosMouseClicked"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JLayeredPane" name="jLayeredPane1">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignGridLayout">
+        <Property name="columns" type="int" value="0"/>
+        <Property name="rows" type="int" value="1"/>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel1">
+          <AuxValues>
+            <AuxValue name="JLayeredPane.layer" type="java.lang.Integer" value="200"/>
+          </AuxValues>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="btregresar1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btregresar1MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="vtavancemos1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Avanzar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="vtavancemos11MouseClicked1"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="vtavancemos1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btinicio1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Decision"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btinicio11MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btcontinuar1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Continuar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btcontinuar11MouseClicked"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btcontinuar11ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btparado1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Parar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btparado11MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btregresar2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btregresar2MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btregresar3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btregresar3MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btregresar4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btregresar4MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btregresar5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btregresar5MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btregresar6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btregresar6MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btregresar7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btregresar7MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btregresar8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btregresar8MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btregresar9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btregresar9MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btregresar10">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btregresar10MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btregresar11">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btregresar11MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btregresar12">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btregresar12MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btregresar13">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btregresar13MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btregresar14">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btregresar14MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btregresar15">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btregresar15MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btregresar16">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btregresar16MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btregresar17">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btregresar17MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btregresar18">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btregresar18MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btregresar19">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btregresar19MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btregresar20">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btregresar20MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btregresar21">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btregresar21MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btregresar22">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btregresar22MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btregresar23">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btregresar23MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btregresar24">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btregresar24MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btregresar25">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btregresar25MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btregresar26">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btregresar26MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btregresar27">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btregresar27MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btregresar28">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btregresar28MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btregresar29">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btregresar29MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btregresar30">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btregresar30MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btregresar31">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btregresar31MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btregresar32">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btregresar32MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btregresar33">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btregresar33MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btregresar34">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btregresar34MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="vtavancemos2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Avanzar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="vtavancemos2MouseClicked"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="vtavancemos2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="vtavancemos3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Avanzar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="vtavancemos3MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="vtavancemos4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Avanzar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="vtavancemos4MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="vtavancemos5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Avanzar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="vtavancemos5MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="vtavancemos6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Avanzar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="vtavancemos6MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="vtavancemos7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Avanzar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="vtavancemos7MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="vtavancemos8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Avanzar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="vtavancemos8MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="vtavancemos9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Avanzar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="vtavancemos9MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="vtavancemos10">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Avanzar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="vtavancemos10MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="vtavancemos11">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Avanzar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="vtavancemos11MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="vtavancemos12">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Avanzar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="vtavancemos12MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="vtavancemos13">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Avanzar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="vtavancemos13MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="vtavancemos14">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Avanzar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="vtavancemos14MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="vtavancemos15">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Avanzar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="vtavancemos15MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="vtavancemos16">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Avanzar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="vtavancemos16MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="vtavancemos17">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Avanzar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="vtavancemos17MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="vtavancemos18">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Avanzar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="vtavancemos18MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="vtavancemos19">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Avanzar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="vtavancemos19MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="vtavancemos20">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Avanzar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="vtavancemos20MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="vtavancemos21">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Avanzar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="vtavancemos21MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="vtavancemos22">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Avanzar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="vtavancemos22MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="vtavancemos23">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Avanzar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="vtavancemos23MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="vtavancemos24">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Avanzar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="vtavancemos24MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="vtavancemos25">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Avanzar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="vtavancemos25MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="vtavancemos26">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Avanzar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="vtavancemos26MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="vtavancemos27">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Avanzar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="vtavancemos27MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="vtavancemos28">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Avanzar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="vtavancemos28MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="vtavancemos29">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Avanzar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="vtavancemos29MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="vtavancemos30">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Avanzar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="vtavancemos30MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="vtavancemos31">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Avanzar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="vtavancemos31MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="vtavancemos32">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Avanzar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="vtavancemos32MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="vtavancemos33">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Avanzar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="vtavancemos33MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="vtavancemos34">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Avanzar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="vtavancemos34MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btiniciar2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Decision"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btiniciar2MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btiniciar3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Decision"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btiniciar3MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btiniciar4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Decision"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btiniciar4MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btiniciar5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Decision"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btiniciar5MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btiniciar6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Decision"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btiniciar6MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btiniciar7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Decision"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btiniciar7MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btiniciar8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Decision"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btiniciar8MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btiniciar9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Decision"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btiniciar9MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btiniciar10">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Decision"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btiniciar10MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btiniciar11">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Decision"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btiniciar11MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btiniciar12">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Decision"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btiniciar12MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btiniciar13">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Decision"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btiniciar13MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btiniciar14">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Decision"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btiniciar14MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btiniciar15">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Decision"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btiniciar15MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btiniciar16">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Decision"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btiniciar16MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btiniciar17">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Decision"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btiniciar17MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btiniciar18">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Decision"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btiniciar18MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btiniciar19">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Decision"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btiniciar19MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btiniciar20">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Decision"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btiniciar20MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btiniciar21">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Decision"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btiniciar21MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btiniciar22">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Decision"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btiniciar22MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btiniciar23">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Decision"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btiniciar23MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btiniciar24">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Decision"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btiniciar24MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btiniciar25">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Decision"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btiniciar25MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btiniciar26">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Decision"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btiniciar26MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btiniciar27">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Decision"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btiniciar27MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btiniciar28">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Decision"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btiniciar28MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btiniciar29">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Decision"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btiniciar29MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btiniciar30">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Decision"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btiniciar30MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btiniciar31">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Decision"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btiniciar31MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btiniciar32">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Decision"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btiniciar32MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btiniciar33">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Decision"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btiniciar33MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btiniciar34">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar Decision"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btiniciar34MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btcontinua2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Continuar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btcontinua2MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btcontinua3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Continuar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btcontinua3MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btcontinua4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Continuar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btcontinua4MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btcontinua5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Continuar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btcontinua5MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btcontinua6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Continuar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btcontinua6MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btcontinua7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Continuar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btcontinua7MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btcontinua8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Continuar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btcontinua8MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btcontinua9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Continuar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btcontinua9MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btcontinua10">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Continuar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btcontinua10MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btcontinua11">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Continuar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btcontinua11MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btcontinua12">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Continuar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btcontinua12MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btcontinua13">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Continuar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btcontinua13MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btcontinua14">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Continuar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btcontinua14MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btcontinua15">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Continuar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btcontinua15MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btcontinua16">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Continuar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btcontinua16MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btcontinua17">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Continuar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btcontinua17MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btcontinua18">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Continuar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btcontinua18MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btcontinua19">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Continuar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btcontinua19MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btcontinua20">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Continuar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btcontinua20MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btcontinua21">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Continuar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btcontinua21MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btcontinua22">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Continuar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btcontinua22MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btcontinua23">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Continuar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btcontinua23MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btcontinua24">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Continuar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btcontinua24MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btcontinua25">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Continuar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btcontinua25MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btcontinua26">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Continuar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btcontinua26MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btcontinua27">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Continuar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btcontinua27MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btcontinua28">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Continuar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btcontinua28MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btcontinua29">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Continuar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btcontinua29MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btcontinua30">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Continuar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btcontinua30MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btcontinua31">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Continuar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btcontinua31MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btcontinua32">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Continuar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btcontinua32MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btcontinua33">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Continuar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btcontinua33MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btcontinua34">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Continuar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btcontinua34MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btparar2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Parar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btparar2MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btparar3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Parar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btparar3MouseClicked"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btparar3ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btparar4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Parar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btparar4MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btparar5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Parar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btparar5MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btparar6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Parar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btparar6MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btparar7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Parar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btparar7MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btparar8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Parar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btparar8MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btparar9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Parar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btparar9MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btparar10">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Parar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btparar10MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btparar11">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Parar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btparar11MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btparar12">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Parar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btparar12MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btparar13">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Parar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btparar13MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btparar14">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Parar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btparar14MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btparar15">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Parar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btparar15MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btparar16">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Parar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btparar16MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btparar17">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Parar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btparar17MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btparar18">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Parar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btparar18MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btparar19">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Parar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btparar19MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btparar20">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Parar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btparar20MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btparar21">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Parar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btparar21MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btparar22">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Parar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btparar22MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btparar23">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Parar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btparar23MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btparar24">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Parar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btparar24MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btparar25">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Parar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btparar25MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btparar26">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Parar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btparar26MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btparar27">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Parar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btparar27MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btparar28">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Parar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btparar28MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btparar29">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Parar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btparar29MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btparar30">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Parar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btparar30MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btparar31">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Parar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btparar31MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btparar32">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Parar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btparar32MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btparar33">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Parar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btparar33MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btparar34">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Parar Video"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btparar34MouseClicked"/>
       </Events>
     </Component>
   </SubComponents>
